@@ -1,0 +1,9 @@
+[package]
+name = "lau-wasm-bridge"
+version = "0.1.0"
+edition = "2021"
+description = "WASM compilation target for PLATO core types"
+license = "MIT"
+
+[lib]
+crate-type = ["lib", "cdylib"]
